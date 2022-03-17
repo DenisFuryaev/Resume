@@ -47,8 +47,9 @@
 
 \cvitem{\textbf{}Email}{denis.furyaev@gmail.com \textit{} }
 \cvitem{\textbf{}Phone}{+7(916)375-84-43 \textit{} }
-\cvitem{\textbf{}Github}{https://github.com/DenisFuryaev \textit{} }
-\cvitem{\textbf{Date of birth}}{21.06.2001 (20 years old) \textit{} }
+\cvitem{\textbf{}Github link}{\href{https://github.com/DenisFuryaev}{https://github.com/DenisFuryaev} \textit{} }
+\cvitem{\textbf{}LinkedIn link}{\href{https://www.linkedin.com/in/denis-furyaev-93aa87234}{https://www.linkedin.com/in/denis-furyaev-93aa87234}/\textit{} }
+\cvitem{\textbf{Date of birth}}{21.06.2001 \textit{} }
 
 
 %\cventry{2008--Present}{Bachelor of Computer Science}{Hanoi University of Science and Technology}{School of Information and Communication Technology, Hanoi.}{\textit{GPA -- 8.0}}{}  % Arguments not required can be left empty
@@ -66,7 +67,7 @@
 %----------------------------------------------------------------------------------------
 \section{Education}
 
-\cvitem{2018--current}{\textbf{Higher:} Moscow city, MSU Faculty of Computational Mathematics and Cybernetics}
+\cvitem{2018--current}{\textbf{Higher:} Moscow city, last year of bachelor's degree in MSU Faculty of Computational Mathematics and Cybernetics}
 \cvitem{2007-2018}{\textbf{Secondary:} Dubna city, Lyceum №6}
 
 
@@ -78,22 +79,19 @@
 
 \cvitem{C++}{Model language interpreter. I learned a lot while working on this project,  especially what lexical, syntactic and semantic analyzes are, and how do they work.}
 \renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
-\cvlistitem{https://github.com/DenisFuryaev/Model-Language-Interpreter}
+\cvlistitem{\href{https://github.com/DenisFuryaev/Model-Language-Interpreter}{https://github.com/DenisFuryaev/Model-Language-Interpreter}}
 
 \cvitem{С}{Interactive command interpreter (Unix Shell analogue). }
 \renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
-\cvlistitem{https://github.com/DenisFuryaev/MyShell}
+\cvlistitem{\href{https://github.com/DenisFuryaev/MyShell}{https://github.com/DenisFuryaev/MyShell}}
 
-\cvitem{C++ OpenGL}{Interactive scene with different computer graphics effects (normal mapping, planar reflection, cubemap reflection, shadow mappint, etc.) written on OpenGL API.}
+\cvitem{C++ OpenGL}{Interactive 3D scene with different computer graphics effects (normal mapping, planar reflection, cubemap reflection, shadow mappint, etc.) written on OpenGL API.}
 \renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
-\cvlistitem{https://github.com/DenisFuryaev/OpenGL}
+\cvlistitem{\href{https://github.com/DenisFuryaev/OpenGL}{https://github.com/DenisFuryaev/OpenGL}}
 
 \cvitem{C\#}{Windows application with UI for detecting objects in parallel on multiple images. WPF is used for UI. YOLOv4 model is used for object detection.}
 \renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
-\cvlistitem{https://github.com/DenisFuryaev/401\_furyaev}
-
-\cvitem{}{}
-
+\cvlistitem{\href{https://github.com/DenisFuryaev/401\_furyaev}{https://github.com/DenisFuryaev/401\_furyaev}}
 
 
 %----------------------------------------------------------------------------------------
@@ -105,11 +103,11 @@
 \subsection{Programming languages:}
 \cvitem{} {C++, C\#, C, Python }
 
-\subsection{Software:}
-\cvitem{} {\textsc{Git}, Unix shell, \LaTeX}
+\subsection{Tools:}
+\cvitem{} {\textsc{Git}, Unix shell, \LaTeX, Visual Studio, Jupyter Notebook}
 
 \subsection{Personal:}
-\cvitem{} {Attention to detail, punctuality, responsibility}
+\cvitem{} {Attention to details, responsibility, learning how things work}
 
 
 %----------------------------------------------------------------------------------------
