@@ -1,1 +1,1 @@
-![resume](./resume.png),
+![resume](./resume.png)
