@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{fontawesome} % Icons
+\usepackage{hyperref} % Hyperlinks
+\usepackage{titlesec} % Update sections
+\usepackage{titling}
+\usepackage[margin=0.8in]{geometry} % Reduce margins
+
+\pagenumbering{gobble} % Remove page numbers
+
+\graphicspath{ {./images/} }
+
+\titleformat{\section}
+    {\huge\bfseries}
+    {}
+    {0em}
+    {}[\titlerule]
+
+\titleformat{\subsection}
+    {\Large\bfseries}
+    {}
+    {0em}
+    {}
+
+\titleformat{\subsubsection}[runin]
+    {\bfseries}
+    {}
+    {0em}
+    {}
+
+\renewcommand{\maketitle}{
+    \begin{center}
+
+    { \Large \thetitle }
+    
+    \vspace{1em}
+    
+    { \huge\bfseries \theauthor }
+    
+    \vspace{.50em}
+
+    \href{https://www.linkedin.com/in/denisfuryaev/}{\faLinkedinSquare \, LinkedIn} ---
+    \href{mailto:denis.furyaev@gmail.com}{\faInbox \, Personal: denis.furyaev@gmail.com} --- 
+    \href{mailto:denis.furiaev@alludo.com}{\faInbox \, Work: denis.furiaev@alludo.com} ---
+    \faLocationArrow \, Mauritius 
+    
+    \end{center}
+}
+
+% ----------------------------------------------------------
+
+\begin{document}
+
+\title{Resume}
+\author{Denis Furiaev}
+
+\maketitle
+
+\section{Education}
+
+\subsection{Bachelors degree}
+\includegraphics[height=1em]{msu-logo.png} MSU Faculty of Computational Mathematics and Cybernetics \hfill 2018 - 2022
+
+\section{Work Experience}
+
+\subsection{Backend developer}
+\subsubsection{\includegraphics[height=0.7em]{parallels-logo.png} Parallels,  Alludo \hfill August 2022 - Current}
+
+\begin{itemize}
+  \item[--] Design, plan and implement new features in Agile paradigm
+  \item[--] Write unit, integration and functional tests using XUnit and Docker Compose
+  \item[--] Develop new services into fast growing microservices application
+  \item[--] Apply domain drive design pattern and event based architecture to build fast and reliable product
+\end{itemize}
+
+\section{Skills}
+\subsection{Technical}
+\subsubsection{Programming languages:}
+C\# .Net Core 6, Python
+\subsubsection{Technologies:}
+Docker, Kubernetes, PostgreSQL, RabbitMQ, Terraform, ArgoCD
+\subsubsection{Cloud providers:}
+Microsoft Azure
+
+\subsection{Personal}
+Responsibility, attention to details
+
+\subsection{Other}
+\subsubsection{Tools:}
+Rider, Postman, OpenAPI, OpenLens
+\subsubsection{Languages:}
+English B1, Russian native
+
+\end{document}
